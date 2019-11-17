@@ -1,24 +1,1626 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rks-Yu-sSB">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--五月天-自傳 (history of Tomorrow)專輯-->
+        <scene sceneID="HC4-YL-xbi">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <tableViewController id="TRy-2I-1RA" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="aMH-JS-gXA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="sectionIndexBackgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PPk-eu-uLG">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="809"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button" image="500x500 (1)"/>
+                            <connections>
+                                <segue destination="VpC-i1-yed" kind="show" id="v5T-bT-oVd"/>
+                            </connections>
+                        </button>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="TRy-2I-1RA" id="Orn-pr-PpM"/>
+                            <outlet property="delegate" destination="TRy-2I-1RA" id="iOg-EX-xnV"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="五月天-自傳 (history of Tomorrow)專輯" id="C3a-5d-czd" colorLabel="IBBuiltInLabel-Green"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nNa-UB-LNx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2728.985507246377" y="-151.33928571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CjJ-Hl-oTH">
+            <objects>
+                <viewController id="VpC-i1-yed" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hjq-dS-bmQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="95i-8h-dqk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">專輯介紹
+五月天 自傳
+history of Tomorrow
+
+誰說不能讓我 此生唯一自傳 如同詩一般？
+
+關於作品9號 [自傳]
+
+其實不是自傳。
+
+而是我們人生中登場的人們，
+與你我生命軌道交會的故事。
+
+如果不是你們，
+我們的人生不會走到這裡，
+不會有如此壯闊綺麗的奇幻漂流。
+
+「如果我們不曾相遇」
+這句話幾乎是全世界最矛盾的話語。
+
+我們不會遇到那樣的人，
+不會有那樣的愛情與家，
+不會過著後來也算是某種的好好的人生。
+我們不會變成無話不聊的兄弟，
+我們不會組團穿越任意門到處去巡迴，
+不會有一群支持我們做任何任性事情的你們。
+
+身邊的樂器消失了，
+團員模糊了，
+播放器裡換上另外一批歌曲，
+也許你們曾經做過的決定也改變了。
+也許轉眼即逝的有限人生，
+最好的一天，會改變成另外一天。
+
+也許沒有五月天。
+
+也許沒有這段文字，
+讓我們在這裡自言自語自問：
+「如果我們不曾相遇」？
+
+
+
+[自傳] 前傳
+
+his story of Tomorrow
+her story of Tomorrow
+our story of Tomorrow
+history of Tomorrow
+
+很久很久之前，或不怎麼久之後。
+他的故事，她的故事，我們的故事。
+能夠預期的，無法預知的；已經發生的，正要開始的。
+
+他的故事是五月晨曦裡蒸發不了的勇氣。
+她的故事是五月烈日下奮不顧身的影子。
+我們的故事是五月夜裡騷動難平的耳語。
+
+這一首曲子，那一段歌詞。
+已經完結或未完待續的故事，都有值得記憶的發聲方式。
+
+自傳，不只有自己的事。
+還有那些，你在我身邊的故事。
+與你不期而遇，壯麗了五月天的奇幻飄流。
+
+『如果我們不曾相遇？』
+『不，幸好我們不期而遇。』
+
+
+
+
+五千九百三十九字歌詞；五十九分五十九秒總長
+五月天 [作品9號]
+
+[自傳] 內傳
+
+•如果我們不曾相遇。
+
+Once，in a lifetime ……。
+那是再平常不過的一天，值得一提的只有與你相遇；如果我們不曾相遇，就不會看見分離的長相；如果我們不曾相識，就不會知道遺憾的重量；如果我們不曾相遇，不存在這首歌曲；至少這一次，讓我們完整彼此一次。
+
+
+•成名在望。
+
+「名氣」不是最後目的，「音樂」才是不變的想望。
+
+假設「名氣」是一道牆，牆的兩邊是截然不同的風景、相同的是赤手空拳的勇氣。對音樂近乎愚蠢的信仰，是曼陀羅花綻放迷幻不知痛的香氣，麻醉暗箭的傷、緩和跌到谷底的痛；黑暗可以沒有盡頭，只有音樂是那其中幽微確實的光。
+
+
+•好好（想把你寫成一首歌）。
+
+剛好，才能好好；而剛好，是最被低估的字眼。
+
+你是那個痛哭得毫不保留的我，我是那個有話沒說出口的你；所謂的相似，有時是不著痕跡的互補；所有的「好好」、「太好」，都要站在「剛好」的起點才能盛開。時間過去，於是明白那些簡單風景，是多麼被低估了。
+
+
+•兄弟。
+
+好的時光一起狂，爛的時候一起擋。
+
+死黨的特權，是得意時和你一起瘋狂得沒頭沒腦；記得呼你一巴掌，要你別忘了一路不是春光明媚。死黨的長相，就是一起摔得鼻青臉腫、也認得出彼此的人；還能笑著說：「你看，我們還蠻耐打的。」
+
+
+•人生有限公司。
+
+「I have no choice .」真的嗎？
+
+從身無長物到充滿牽掛，從不經人事到世故老練，從試圖改變到猶豫懷疑，卻總是記得「YOLO---You Only Live Once」。每次的懷疑和反抗，都是對有限人生的逆襲，那些你不停用「無限」去衝擊「有限」的時刻、都值得紀念。
+
+
+•後來的我們。
+
+這是一首不存在的歌曲，你如此快樂、我捨不得你聽見傷心的歌；這是一段不存在的喃喃自語，你如此快樂、不應該感覺到我的遺憾。偶爾，偶爾我會想起當時，
+我笑著說：「沒關係。」
+好讓後來的你能放心，和我，沒有關係。
+
+
+•頑固。
+
+好頑固，為了「好」而頑強固執。
+
+外表是頑固，本體是眼淚；叛逆是給世界的，溫柔是給你的。漸漸學會有些事可以讓步，但也確定了有些事不能放棄；明知道有更容易討好的笑容，還是轉身去摘有刺的玫瑰；為了配得上你的陪伴，我選擇對全世界頑固。
+
+
+•派對動物。
+
+more pain, more game.
+
+世界太瘋狂，所以理智要很飽滿；對這個世界來說，你是party animal；對你來說，整個世界就是一場party。學會把真實藏在玩笑裡，現實再肥厚、都不能阻止你要party all 9的意志；人生就是派對，正面迎戰就對。
+
+
+•最好的一天。
+
+再平凡的日子，都有成為best day的潛力。
+
+最好太難以抉擇，糟糕總是難以忘記；在最好和糟糕之外，更多的是不上不下、複製貼上的平凡每一天。最好的那天也許還沒出現，最糟的那天可能還沒發生；「any day」都有機會是驚喜或驚嚇，who knows？
+
+
+•少年他的奇幻漂流。
+
+划過偏見與爭端，我們靜默航行。
+
+當諸神背過身，當百鬼夜行狂歡，當人間掀起更甚海洋的巨浪，捧起微弱的理智之光，我們將航行在耳語「之間」、在極端「之間」、在絕對「之間」；繁星失語的午夜，也許沒有方向、卻能安適靜待遠方天光。
+
+
+•終於結束的起點。
+
+現在的終點，是未來的起點。
+
+還原親密緊貼的距離，undo早已形成的習慣；愛情並不傷人，真正傷人的是沒有對錯的無奈。即使回到原點，也不再是最初的你我；現在咬牙說出的「再見」，是替未來的「好久不見」預留一個躲雨的屋簷。
+
+
+•任意門。
+
+意念和想念，是唯一能打開任意門的鑰匙。
+
+發動破爛摩托車，用音樂check in上飛機；和七號公園一起累積哩程數，走出椰林大道降落麥迪遜花園。腦子裡那些不能割捨的從前，是每次通關行李超重的原因；任意門不是門，而是不忘初心的意念與想念。
+
+
+•轉眼。
+
+用一生的長度，寫成一瞬間的轉眼。
+
+當所有的his story、her story、our story都成了history ，而銀白髮色已經比月光還涼；閉上雙眼緊貼著回憶飛行，腦海是魔幻寫實最華麗的舞台；如同馬奎斯百年孤寂的終章，讓一切曾經、轉眼同時發生。
+
+
+•你說那 C 和弦就是…。
+
+把青春放在本生燈上燒，會散發一種吉他弦的味道。
+
+青春是一個動詞，要用吉他狠狠地捕獲；那些單純的曾經，是記憶裡的隱藏版；在你最脆弱的時候、在你最快樂的時候、在你最挫敗的時候，甚至是你忘記了的時候，才能找到開啟隱藏版檔案的密碼。
+
+
+
+
+[自傳] 後傳
+
+人生有限公司履歷表—
+人生有限的話 你想要怎樣喧嘩？
+人生有限公司 沒有一天能請假
+
+
+
+姓名:温尚翊
+星座:射手座
+最討厭的水果:不討厭水果
+最喜歡的顏色:baby blue
+最討厭的和弦:正所謂「solo誠可貴，和弦價也高」每個和弦都很好嘍…GmMaj7除外
+最為人不屑但自己覺得很棒的成就:用吉他彈奏講人話，例如講：「劉諺明，阿不就好棒棒？」
+
+將我的靈魂放在歌裡
+當你傾聽，我們會相遇
+
+
+
+姓名:蔡昇晏
+星座:金牛座
+最討厭的水果:榴蓮，刺刺的
+最喜歡的顏色:藍色
+最討厭的和弦:誰跟我說升E或升B，我一定罵人
+最為人不屑但自己覺得很棒的成就:以前大學用星際大戰當主題來寫心理學報告
+
+不知不覺地交會聚集
+不知不覺地開始飛奔
+不知不覺地到了今天
+希望來得及後知後覺地緊握餘溫
+
+
+
+姓名:父母幫我取名石錦航
+奶奶叫我小航
+老婆叫我達令
+兒子叫我爸爸
+很多人都叫我石頭
+星座:天真 活潑 浪漫 積極 樂觀 善解人意的射手座
+最討厭的水果:壞掉的芭樂
+最喜歡的顏色:晴空下大海的湛藍
+最討厭的和弦:演唱會或錄音出錯的那個
+最為人不屑但自己覺得很棒的成就:瞬間變雙眼皮
+
+就這樣 我留下來
+留下了過去的燦爛與殘骸
+和一段奔向著未來的愛
+
+
+
+姓名:阿信
+星座:射手座
+最討厭的水果:葡萄柚 它苦苦的 正練習喜歡中
+最喜歡的顏色:喜歡所有顏色 包括黑白灰
+最討厭的和弦:不喜歡B和弦 因為怎麼按都有雜音
+最為人不屑但自己覺得很棒的成就:海綿寶寶死忠粉絲
+
+誰說
+不能讓我
+此生唯一自傳
+如同詩一般？
+
+
+
+姓名:劉冠佑
+星座:獅子座
+最討厭的水果:榴蓮
+最喜歡的顏色:天空藍
+最討厭的和弦:降Em
+最為人不屑但自己覺得很棒的成就:無時無刻都可以想到笑話 無論好笑或不好
+
+我的過去，好久不見
+我的未來，不久相見
+
+
+～寫這首長詩 59’59” 用一生時光～ by五月天</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="A3y-d5-qhu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fJZ-dy-aAk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VAj-KT-cJ1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3555.072463768116" y="-151.33928571428569"/>
+        </scene>
+        <!--專輯曲目歌詞-->
+        <scene sceneID="Bfs-jY-Kj6">
+            <objects>
+                <tableViewController id="VDT-A0-a4T" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9B5-hu-imf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="sectionIndexBackgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bxD-l5-uql">
+                            <rect key="frame" x="0.0" y="56" width="414" height="753"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="500x500 (2)"/>
+                            <connections>
+                                <segue destination="AzC-e4-FMx" kind="show" id="ggP-5Y-aCD"/>
+                            </connections>
+                        </button>
+                        <sections>
+                            <tableViewSection id="BLe-8m-BDE">
+                                <cells/>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="VDT-A0-a4T" id="4EW-bJ-zKh"/>
+                            <outlet property="delegate" destination="VDT-A0-a4T" id="0Ai-jz-9w5"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="專輯曲目歌詞" id="4M5-MJ-YZi"/>
+                    <connections>
+                        <segue destination="AzC-e4-FMx" kind="show" id="vuE-eD-IGe"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9s6-U3-VFe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2728.985507246377" y="504.91071428571428"/>
+        </scene>
+        <!--專輯曲目歌詞-->
+        <scene sceneID="h6X-Iq-Ozo">
+            <objects>
+                <navigationController id="9pm-xt-H1a" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="專輯曲目歌詞" id="RQ7-80-acA"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ljx-bF-Otv">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="VDT-A0-a4T" kind="relationship" relationship="rootViewController" id="Zlo-jA-jBB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VXt-KW-sL4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1886.9565217391305" y="504.91071428571428"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="MoE-qV-IpM">
+            <objects>
+                <tableViewController id="AzC-e4-FMx" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="rdL-cG-rX9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="專輯曲目歌詞" id="Zji-lA-oKi">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="65" id="Dzu-QU-71I">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dzu-QU-71I" id="ldx-NW-V6H">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.如果我們不曾相遇 (What If We Had Never Met)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u09-9V-Zmd">
+                                                    <rect key="frame" x="22" y="22" width="330" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="4lP-ZS-Bjk" kind="show" id="Co7-85-EFW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="60" id="JRz-tS-Y4i">
+                                        <rect key="frame" x="0.0" y="93" width="414" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JRz-tS-Y4i" id="N4z-k6-MIx">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2.成名在望 (Almost Famous)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58F-Nn-h0s">
+                                                    <rect key="frame" x="20" y="20" width="218" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="oDx-wT-KUf" kind="show" id="02E-De-xgV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="60" id="LF4-Vc-1PT">
+                                        <rect key="frame" x="0.0" y="153" width="414" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LF4-Vc-1PT" id="hbF-cE-Ybw">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3.好好 (想把你寫成一首歌) (Song About You)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7I-Pf-ztX">
+                                                    <rect key="frame" x="20" y="11" width="374" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="Ckx-6T-iMK" kind="show" id="yxy-e1-089"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="55" id="a5H-wb-Ak7">
+                                        <rect key="frame" x="0.0" y="213" width="414" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a5H-wb-Ak7" id="Y4W-Bp-UjA">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="55"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4.兄弟 (Brotherhood)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zje-bk-GVG">
+                                                    <rect key="frame" x="20" y="11" width="374" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="mMg-az-JLW" kind="show" id="tFJ-mJ-NXm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="55" id="1Qy-O5-nQ5">
+                                        <rect key="frame" x="0.0" y="268" width="414" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Qy-O5-nQ5" id="IhZ-AX-4wh">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="55"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5.人生有限公司 (Life Co. Ltd.)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7h-bt-HTh">
+                                                    <rect key="frame" x="20" y="12" width="374" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="ads-Ir-IUy" kind="show" id="DTY-B9-MmX"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="55" id="jh8-cy-8y1">
+                                        <rect key="frame" x="0.0" y="323" width="414" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jh8-cy-8y1" id="ANQ-6S-meH">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="55"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6.後來的我們 (Here, After, Us)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zu1-xQ-9Mz">
+                                                    <rect key="frame" x="20" y="11" width="374" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="0s4-Zv-o7a" kind="show" id="F5c-nS-8Qc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="55" id="9kp-fT-qiG">
+                                        <rect key="frame" x="0.0" y="378" width="414" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9kp-fT-qiG" id="pxQ-Lt-yZh">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="55"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7.頑固 (Tough)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAh-Pe-ePT">
+                                                    <rect key="frame" x="20" y="11" width="374" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="XPn-Yx-OOa" kind="show" id="JBf-GI-Nfc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="55" id="pBP-GB-RrF">
+                                        <rect key="frame" x="0.0" y="433" width="414" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pBP-GB-RrF" id="5KF-rD-tBz">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="55"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="8.派對動物 (Party Animal)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y12-Ng-hC9">
+                                                    <rect key="frame" x="20" y="11" width="374" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="rbc-hU-ySR" kind="show" id="fjv-mo-Goa"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="55" id="hCR-5M-El9">
+                                        <rect key="frame" x="0.0" y="488" width="414" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hCR-5M-El9" id="K7H-ec-vM8">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="55"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="9.最好的一天 (Best Day of My Life)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntb-Pa-8Xp">
+                                                    <rect key="frame" x="20" y="11" width="374" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="DBT-Jd-3H6" kind="show" id="PBS-0A-Ybx"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="55" id="lCN-fv-mPx">
+                                        <rect key="frame" x="0.0" y="543" width="414" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lCN-fv-mPx" id="1mM-VI-4Qf">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="55"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10.少年他的奇幻漂流 (Life of Planet)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gp3-E1-do0">
+                                                    <rect key="frame" x="20" y="11" width="374" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="xPT-JR-raz" kind="show" id="2bN-X7-miM"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="55" id="v1J-fi-3WY">
+                                        <rect key="frame" x="0.0" y="598" width="414" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="v1J-fi-3WY" id="gEh-BE-uMA">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="55"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="11.終於結束的起點 (Beginning of the End)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9b-tA-aGT">
+                                                    <rect key="frame" x="20" y="11" width="374" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="8AH-xm-IzZ" kind="show" id="fyS-ec-8cy"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="Cih-c9-rH6">
+                                        <rect key="frame" x="0.0" y="653" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Cih-c9-rH6" id="O7Y-re-h6S">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12.任意門 (Dokodemo Door)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVb-8A-N01">
+                                                    <rect key="frame" x="20" y="11" width="374" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="nSz-0S-bxG" kind="show" id="IEG-rR-ofG"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="60" id="05r-9d-TdX">
+                                        <rect key="frame" x="0.0" y="707" width="414" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="05r-9d-TdX" id="nIb-rP-8bz">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="13.轉眼 (Final Chapter)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54N-Xt-lt8">
+                                                    <rect key="frame" x="20" y="11" width="374" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="pXP-V3-B9E" kind="show" id="h10-Kd-dxw"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="AzC-e4-FMx" id="G3y-Yb-VCk"/>
+                            <outlet property="delegate" destination="AzC-e4-FMx" id="s7J-TJ-a7I"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="40H-OG-4DA"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EOF-F4-sXn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3555.072463768116" y="504.91071428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="43v-CP-3e9">
+            <objects>
+                <viewController id="oDx-wT-KUf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sDA-bt-9Da">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZLf-z3-SI2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">成名在望 (Almost Famous)
+作詞：阿信    作曲：阿信
+
+找一個和弦開始唱 那故事遺忘的時光
+起點是那平凡的成長 或初學吉他時 少年們 的模樣
+
+那一年的舞台 沒掌聲 沒聚光 只有盆地邊緣 不認輸 的倔強
+排練室的日夜 在爭論 在激盪 以音量去吞噬 無退路 的徬徨
+
+那黑的終點可有光 那夜的盡頭可會亮
+那成名在望 會有希望 或者是 無知的狂妄
+那又會怎麼樣 「那又會怎麼樣？」
+
+混跡過酒場的駐唱 才讀懂人性的尋常
+背負過音樂節的重量 才體會每場仗 都仰賴 槍與糧
+
+夢是把熱血和 汗與淚 熬成湯 澆灌在乾涸的 貧瘠的 現實上
+當日常的重量 讓我們 不反抗 倒地後才發現 荒地上 渺茫 希望 綻放
+
+穿過了搖滾或糖霜 昧俗或理想 批判或傳唱 道路上
+只能看遠方 最遠的地方 應許的他方 不停衝撞
+
+看過多少臉龐 飛過多少異鄉
+少年早已蒼茫 回頭望 我在何方
+
+一站又一站的流浪 那旅館和空港 一遍又一遍的採訪 和攻防
+一雙又一雙的目光 像監獄和高牆 牆裡的風光是不是 如當初想像？
+
+那黑的終點可有光 那夜的盡頭可會亮
+那成名在望 是否風光 或者是 瘋狂的火光
+那又該怎麼樣 「那又能怎麼樣？」
+
+While we were so young 我夢到當時 我們翻過牆
+曼陀羅花 沿途綻放 我們光腳越過人間荒唐
+
+We're stupid but strong 放學的屋頂 像萬人廣場
+從不多想 只是信仰 少年回頭望 笑我「還不快跟上？」
+
+那路的起點誰能忘 那路的盡頭誰在唱
+誰成名在望 誰曾失望 卻更多 的誰在盼望
+
+那黑的終點可有光 那夜的盡頭天將亮
+那成名在望 無關真相 如果你 心始終信仰
+誰又能怎樣？ 誰又能怎樣？
+
+「你就能飛翔」</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="8dq-9c-V9o"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cmf-zi-41H"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RUj-Ye-glD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4510.144927536232" y="1057.3660714285713"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PGl-g0-slI">
+            <objects>
+                <viewController id="Ckx-6T-iMK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cp4-ir-uKy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1UP-67-fIa">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">好好 (想把你寫成一首歌) (Song About You)
+作詞：阿信    作曲：冠佑＋阿信
+
+想把你寫成一首歌 想養一隻貓
+想要回到每個場景 撥慢每隻錶
+我們在小孩和大人的轉角 蓋一座城堡
+我們好好 好到瘋掉 像找回失散多年雙胞
+
+生命再長不過 煙火 落下了眼角
+世界再大不過 你我 凝視的微笑
+在所有流逝風景與人群中 你對我最好
+一切好好 是否太好 沒有人知道
+
+你和我背著空空的書包
+逃出名為日常的監牢
+忘了要長大
+忘了要變老
+忘了時間有腳
+
+最安靜的時刻 回憶 總是最喧囂
+最喧囂的狂歡 寂寞 包圍著孤島
+還以為馴服想念能陪伴我 像一隻家貓
+它就窩在 沙發一角 卻不肯睡著
+
+你和我曾有滿滿的羽毛
+跳著名為青春的舞蹈
+不知道未來
+不知道煩惱
+不知那些日子 會是那麼少
+
+時間的電影 結局才知道
+原來大人已沒有童謠
+最後的叮嚀
+最後的擁抱
+我們紅著眼笑
+
+「我們都要把自己照顧好」
+好到遺憾無法打擾
+好好的生活
+好好的變老
+好好假裝我 已經把你忘掉</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="UvS-QL-ihK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QYw-iI-lji"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G7a-pg-XhD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4510" y="1749"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uWZ-s8-YJB">
+            <objects>
+                <viewController id="mMg-az-JLW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mN8-Y0-Chk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lKx-hg-rhi">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">兄弟 (Brotherhood)
+作詞：阿信    作曲：阿信
+
+酒精或節奏 我們搖搖晃晃 那又會怎樣 跌倒你在身旁
+在身旁打每一場 泥濘爛仗 你和我 唔噢噢噢 就是這樣
+
+留級和失戀 誰也都曾重傷 傷癒後變成 你我今日徽章
+你總強迫我堅強 像控制狂 想起來 唔噢噢噢 有點誇張
+
+兄弟別來無恙 能走到這裡 也算得獎
+兄弟別來無恙 我很難想像 沒有你 會怎樣
+
+當其他人都
+一次一次 一次一次 對我失望
+一個一個 一個一個 慢慢走光
+我的兄弟啊 抬頭是你 在身旁
+
+再乾一杯敬那年 狂妄理想 曾以為世界 想怎樣就怎樣
+而至少如今我們 平安健康 人生嘛 唔噢噢噢 不要多想
+
+只有你知道我都 假裝正常 只有我欣賞你的 惡行惡狀
+彼此都是彼此的 孽緣業障 完美的 唔噢噢噢 狐群狗黨
+
+兄弟就是這樣 你每件糗事 被我珍藏
+兄弟就是這樣 我們的荒唐 排行榜 多難忘
+
+當其他人都
+一次一次 一次一次 對我失望
+一個一個 一個一個 慢慢走光
+我的兄弟啊 抬頭卻看到你在 我身旁
+
+能不能永遠
+一句一句 一句一句 都沒營養
+一直一直 一直一直 聊到天亮
+我的兄弟啊 今天換我結帳 不要 跟我搶
+
+如今人生各有戰場 你的難題 我的煩惱 已不一樣
+是否就像當年的幻想 我們的模樣？
+
+青春就這樣
+一天一天 一天一天 慢慢用光
+一點一點 一點一點 現實埋葬
+我的兄弟啊 我們都變成歲月 的形狀
+
+不如就這樣
+一年一年 一年一年 地老天荒
+一定一定 一定一定 永遠不忘
+我的兄弟啊 人生最狂時光 剛好你都在場
+我的兄弟啊 人生最好時光 是和你 兄弟一場</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="zRN-X1-Kys"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RF5-75-i7c"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L6q-hc-8sq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4509" y="2465"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oGP-vT-83c">
+            <objects>
+                <viewController id="ads-Ir-IUy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KbX-Up-3MU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1p7-ob-2lN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">人生有限公司 (Life Co. Ltd.)
+作詞：阿信    作曲：怪獸
+
+你用哭聲打卡 產房裡的娃娃 眾人祝福 你還記得嗎？
+當時一絲不掛 如今一分不差 成天會議 成堆資料夾
+
+第一個部門 主管叫做爸媽 你只要乖乖聽話
+第二個部門 專門改造傻瓜 會唸書 會考試 的那種傻瓜
+
+「你曾掙扎過嗎 你曾反抗過嗎？」 如何使用生命 就叫「使命」是嗎？
+人生有限選擇 誰在規劃？
+
+追逐富貴榮華 目標飛黃騰達 你準備好了嗎 現在必須出發
+人生有限公司 沒有一天能請假
+
+人在哪裡跌倒 就在哪趴一下 面對挫折也都專業化
+讓生涯最佳化 而夢想最小化 生存機率追求最大化
+
+第三個部門 負責財務計畫 要你和現實打架
+第四個部門 任務更加複雜 去尋覓 去戀愛 去找她或他
+
+「你曾深愛過嗎 你曾放縱過嗎？」 愛成一句傻話 活成一句廢話
+人生有限日子 揮霍一下
+
+公司漸漸變化 組織慢慢擴大 有時無法招架 有點騎虎難下
+人生有限公司 還加班還沒回家
+
+「你曾停下過嗎 你曾懷疑過嗎？」 就算你有想法 你也沒有辦法
+人生無限問題 沒有解答
+
+追逐富貴榮華 目標飛黃騰達 其實平安到達 就是一種偉大
+人生無限可能 誰能出價？
+
+人生像打電話 總要有人先掛 來時嗚嗚哇哇 走要嘻嘻哈哈
+人生有限的話 你想要怎樣喧嘩？
+人生有限公司 沒有一天能請假</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="nlr-we-3Rw"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zUy-ae-m2a"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fQB-CN-HrZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4509" y="3151"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QQz-t0-WCo">
+            <objects>
+                <viewController id="0s4-Zv-o7a" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hUr-fi-efg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lY5-co-LbV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">後來的我們 (Here, After, Us)
+作詞：阿信    作曲：怪獸
+
+然後呢
+他們說你的心 似乎痊癒了
+也開始有個人 為你守護著
+我該心安或是 心痛呢
+
+然後呢
+其實我的日子 也還可以呢
+除了回憶肆虐 的某些時刻
+慶幸還有眼淚 沖淡苦澀
+
+而那些昨日 依然繽紛著 它們都有我 細心收藏著
+也許你還記得 也許你都忘了
+也不是那麼 重要了
+
+只期待 後來的你 能快樂
+那就是 後來的我 最想的
+後來的我們 依然走著
+只是不再並肩了
+朝各自的人生 追尋了
+
+無論是 後來故事 怎麼了
+也要讓 後來人生 精彩著
+後來的我們 我期待著
+淚水中能看到 你真的 自由了
+
+親愛的
+回憶我們共同 走過的曲折
+是那些帶我們 來到了這一刻
+讓珍貴的人生 有失有得
+
+用新的幸福 把遺憾包著 就這麽朝著 未來前進了
+有再多的不捨 也要狠心割捨
+別回頭看我 親愛的
+
+只期待 後來的你 能快樂
+那就是 後來的我 最想的
+後來的我們 依然走著
+只是不再並肩了
+朝各自的人生 追尋了
+
+無論是 後來故事 怎麼了
+也要讓 後來人生 精彩著
+後來的我們 我期待著
+淚水中能看到 你真的 幸福快樂
+
+在某處 另一個你 留下了
+在那裏 另一個我 微笑著
+另一個我們 還深愛著
+代替我們永恒著
+如果能這麼想 就夠了
+
+無論是 後來故事 怎麼了
+也要讓 後來人生 值得
+後來的我們 我期待著
+淚水中能看到 你真的 自由了</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Ivo-vC-v2y"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QP3-bH-JWo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hJ4-6Z-wcc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4510" y="3838"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="giV-Km-SBi">
+            <objects>
+                <viewController id="XPn-Yx-OOa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oJE-xt-uXp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QR2-an-A9I">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">頑固 (Tough)
+作詞：阿信    作曲：阿信
+
+我身在 當時你 幻想的 未來裡
+這個狂熱和衝動 早已冷卻的如今
+你頑固 的神情 消失在 鏡子裡
+只留下 時光消逝的痕跡
+
+每顆心 的相信 每個人 的際遇
+每個故事的自己 反覆地問著自己
+這些年 讓步的 你是否 會嘆息
+有什麼 是你永遠不放棄？
+
+一次一次你 吞下了淚滴 一次一次 拼回破碎自己
+一天一天你 是否還相信 活在你心深處 那頑固自己
+
+你追逐 你呼吸 你囂張 的任性
+鼻青臉腫的哭過 若無其事的忘記
+如果你 能預知 這條路 的陷阱
+我想你 依然錯得很過癮
+
+走過的 叫足跡 走不到 叫憧憬
+學會收拾起叛逆 學會隱藏了表情
+卸下了 這面具 我想說 謝謝你
+謝謝你 一路陪我到這裡
+
+一次一次你 吞下了淚滴 一次一次 拼回破碎自己
+一天一天你 是否還相信 活在你心深處 那頑固的自己
+
+一次一次你 吞下了淚滴 一次一次 拼回破碎自己
+一天一天你 是否還相信 活在你心深處 那頑固的
+
+你當時相信 的那些事情 會在如今 變成美麗風景
+每當我遲疑 從不曾忘記 活在我心深處 那頑固的自己</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="4ZP-Wr-fbi"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SUJ-tg-BNa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cjr-eM-Xc9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4510" y="4550"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="amZ-pY-iOt">
+            <objects>
+                <viewController id="rbc-hU-ySR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="88O-Gi-CpU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="O4d-J0-862">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">派對動物 (Party Animal)
+作詞：阿信    作曲：阿信
+
+Let’s go party party all night, oh oh oh oh
+Hey lonely lonely goodbye, oh oh oh oh
+我們都有覺悟 要瘋狂到日出
+我們 天生 就是
+
+我很嚴肅 這不能耽誤 這不能讓步
+那現實中 已經有太多讓步
+Hey 派對動物 別找退路
+
+不會跳舞 就不要跳舞 搖擺也幸福
+就閉著眼 以空氣吉他飆速
+Hey 派對動物 不要認輸
+你不孤獨 朋友滿屋 瘋狂胡鬧 瘋狂慶祝
+
+Let’s go party party all night, oh oh oh oh
+And many many good times, oh oh oh oh
+不願被當寵物 寧願變成怪物 噢噢 oh oh oh oh
+
+入不敷出 水電和房租 成績和任務
+這泡沫般 人生是那麼辛苦
+Hey 派對動物 是否麻木
+
+你忘了笑 還忘了能哭 本性被馴服
+花兩億年 進化卻沒有進步
+Hey 派對動物 無論你是
+貓咪老虎 麻雀蝙蝠 都要驕傲 都要大步
+
+Let’s go party party all night, oh oh oh oh
+And many many good times, oh oh oh oh
+不願被當寵物 寧願變成怪物 噢噢 oh oh oh oh
+Let’s go party party all night, oh oh oh oh
+Hey lonely lonely goodbye, oh oh oh oh
+我們都有覺悟 要瘋狂到日出
+我們 天生 就是 派對動物
+
+Let’s go party party all night, oh oh oh oh
+And many many good times, oh oh oh oh
+人生難得糊塗 偶爾脫軌演出 噢噢 oh oh oh oh
+Let’s go party party all night, oh oh oh oh
+Hey lonely lonely goodbye, oh oh oh oh
+我們都有覺悟 要瘋狂到日出
+我們 天生 就是 派對動物
+
+派對動物
+派對動物</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="RRT-iT-a2U"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="R42-jf-9bK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SR9-YW-WbK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4510" y="5247"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="v7j-J2-AeU">
+            <objects>
+                <viewController id="DBT-Jd-3H6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bYB-Ac-La0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FUm-Zo-y7a">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">最好的一天 (Best Day of My Life)
+作詞：阿信    作曲：石頭
+
+閉上眼 請你閉上眼
+問自己 無數平凡 日子裡面
+選出 你生命中 最好的那一天
+
+再問你 最糟的那天
+或許也 留下什麼 讓你改變
+後來 你轉了念 貧瘠小行星 種一棵玫瑰
+
+困在囚房裡 聽見音樂 你開起了演唱會
+把相親對象 組成球隊 去奪下那世界盃
+也許是那天！
+
+最好的一天 最好的那一天 噢噢噢噢噢 噢噢噢噢噢噢
+
+歲月說 回憶才最美
+未來說 最好那天 還沒上演
+你說 太難挑選 人生三萬多天
+
+地球說 你活了百年
+不過是 歷史角落 轉眼瞬間
+你的 名字故事 打噴嚏就都 全灰飛煙滅
+
+銀河說 「地球你好了沒」 你也是小小圓點
+宇宙說 「銀河你乖一點」 你也有千億同類
+你選好了沒？
+
+最好的一天 最好的那一天 噢噢噢噢噢 噢噢噢噢噢噢
+
+龐大或卑微 恆久或瞬間
+人間的罣礙 都是相對
+你懷念昨天 或期待明天
+或是任何 還呼吸 還生存 的每個最好的今天
+
+In my life, best day, any day, best day
+噢噢噢噢噢 噢噢噢噢噢噢
+
+噢噢噢噢噢 噢噢噢噢噢噢
+噢噢噢噢噢 噢噢噢噢噢噢</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="tZw-IM-3rx"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="f5k-Gp-FpG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vzT-Lx-hqI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4510" y="6007"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="r9g-FJ-2v2">
+            <objects>
+                <viewController id="xPT-JR-raz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ahd-Sa-fMM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gHM-Ir-Auo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">少年他的奇幻漂流 (Life of Planet)
+作詞：阿信    作曲：石頭
+
+午夜前醒來 迷惘如海 繁星忘了燦爛
+我們是小孩 都曾是小孩 誕生在這艘船
+
+人們口中方舟 像一葉小船
+耳語溢出甲板 風雨搖晃旗竿
+
+人們切開山巒 剪下了雲彩
+削成了萬支槳 縫製風帆
+尋找 吶喊 未知的未來
+
+我們會航向怎樣的未來？
+無數命運流轉 打造了 無數的
+相異的羅盤
+
+當巨浪排山倒海的襲來
+我們的手鬆開 心也潰散
+每個人 每顆心 風暴 流竄
+
+諸神已離開 鬼在狂歡 而人們在糾纏
+誰生錯血脈 誰長錯色彩 誰夢錯了期待？
+
+漂流無邊汪洋 不叫做孤單
+夜色的最黑暗 那不是最黑暗
+
+而是人們無窮 無盡的爭端
+將你我推向了 最遠兩端
+異端 極端 遺落的遺憾
+
+我們會航向怎樣的未來？
+無數命運流轉 打造了 無數的
+相異的羅盤
+
+如果世界只剩你我存在？
+為何人們依然 爭論著 那未來
+而踐踏著現在
+
+我們該珍惜如何的現在？
+無數交織自傳 相遇在 汪洋中
+當你抬頭看
+
+何時那萬種漸層的斑斕
+已默默綻放在 黑夜終端
+那雲端 那光芒 像是 皇冠
+
+朝霞中呢喃 釋然如海 你向我靠過來
+誰說要龐大 才能夠偉大 我們如此存在
+歷經摧殘 就要璀璨
+如果愛 不只是奇幻</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="spo-ZW-5NS"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OK9-YT-BR7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x3M-zg-Qk2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4510" y="6688"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Wxj-Gb-Wwo">
+            <objects>
+                <viewController id="8AH-xm-IzZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o95-yy-zJs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9ne-aP-5gK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">終於結束的起點 (Beginning of the End)
+作詞：阿信    作曲：阿信
+
+還記不記得 我和你 最初的相信
+還記不記得 孩子般 簡單的愛情
+我們彷彿天生在一起 用不完的默契和話題
+戴上了耳機 沉入曾經的 回憶
+
+幸福的回憶 是追求 幸福的天敵
+寂寞的問候 是加深 寂寞的陷阱
+當時無限珍藏的回憶 變成無處躲藏的雨季
+讓最小事情 都變成最痛 嘆息
+
+每一段傷痛的愛情 都困住兩顆想掙脫 傷痛的心
+如果說可惜 就在下一章 更珍惜
+也許一個勇敢的決定 能換兩個重生的約定
+「我們到了站」 這一站叫終於
+
+終於結束的起點
+終於寫下句點 終於我們告別
+終於我們又 回到原點
+流乾了眼淚 日日夜夜
+未來的我們 也許能說聲
+「好久不見。」
+
+愛情並不是 對與錯 簡單是非題
+相愛的兩人 不一定 能相守相依
+因為相愛所以在一起 因為深愛所以又分離
+約在下一站 車票是你我 勇氣
+
+每一段遺憾的曾經 當時名字都叫憧憬 我們的心
+不能忘懷的 至少釋懷吧 在風裡
+「那些無法看破的嘆息 某天會是看淡的風景」
+雖然那風景 永遠有誰缺席
+
+終於結束的起點
+終於寫下句點 終於我們告別
+終於我們又 回到原點
+流乾了眼淚 日日夜夜
+未來的我們 也許能說聲好久不見 好久不見
+
+終於結束的起點
+終於寫下句點 終於我們告別
+終於我們又 回到原點
+流乾了眼淚 日日夜夜
+未來的我們 也許能說聲好久不見
+
+站在這起點
+其實沒有走遠 其實不願告別
+其實我心中 依然想念
+擁抱著遺憾 歲歲年年
+卻要在今天 頭也不回的告別昨天 奔向明天
+
+奔向明天
+不回頭 不眷戀 的明天</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="oL4-jz-rMR"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sgf-Lt-U4g"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kN1-Pn-Inq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4510" y="7368"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1XO-RH-3u2">
+            <objects>
+                <viewController id="nSz-0S-bxG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dMz-vL-Tdu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3K9-do-a5V">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">任意門 (Dokodemo Door)
+作詞：阿信    作曲：怪獸
+
+行天宮後 二樓前座 那個小房間 日夜排練 我們聽著唱片
+唱片來自 那唱片行 叫「搖滾萬歲」 和駐唱小店 都在士林邊緣
+
+我們都想 離開這邊 追尋另一邊 苗栗孩子 搬到台北求學
+水手之子 重考擠進 信義路校園 和高雄學弟 當時看不順眼
+
+我們曾走過 無數地方 和無盡歲月
+搭著肩環遊 無法遺忘 的光輝世界
+那年我們都 衝出南陽街 任意門通向了音樂
+任意門外我們都任意的飛 是自由的滋味
+
+七號公園 初次登場 是那個三月 自強隧道 漫長的像永遠
+椰林大道 誰放棄了 律師的家業 頭也不回地 越來越唱越遠
+
+外灘風光 躍出課本 是那麼新鮮 從回民街 再飛到尖沙咀
+男兒立志 成名在望 不論多遙遠 一離開台北 卻又想念台北
+
+我們曾走過 無數地方 和無盡歲月
+搭著肩環遊 無法遺忘 的光輝世界
+無名高地到 鳥巢的十年 一路鋪滿汗水淚水
+任意門外我們用盡全力飛 管他有多遙遠
+
+我們曾走過 無數地方 和無盡歲月
+搭著肩環遊 無法遺忘 的光輝世界
+那個唱片行 何時已不見？ 是誰說過「搖滾萬歲」？
+任意門裡我們偶爾也疲倦
+
+平凡的我們 也將回到 平凡的世界
+生活中充滿 孩子哭聲 柴米和油鹽
+曾和你走過 麥迪遜花園 任意門外繞一大圈
+你問我全世界是哪裡最美？
+答案是「你身邊」 只要是你身邊
+
+行天宮後 二樓前座 那個小房間 獸媽準備 宵夜是大雞腿
+每個夢都 像任意門 往不同世界 而你的故事
+「現在正是起點」</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="w7L-84-96b"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SbB-Ae-Qkz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ov3-yG-m4P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4510" y="8040"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hCu-Kx-1IK">
+            <objects>
+                <viewController id="pXP-V3-B9E" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZDe-1y-9Xp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pn0-ta-J6U">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">轉眼 (Final Chapter)
+作詞：阿信    作曲：石頭
+
+轉眼走到了 自傳最終章 已瀏覽所有 命運的風光
+混濁的瞳孔 風乾的皮囊 也曾那般 花漾
+
+最愛的相片 讓你挑一張 千萬個片刻 誰在你身旁
+那一年的我 曾和你一樣 飛揚
+
+惶惶不安 念念不忘 還是得放開雙掌
+掌心曾握著 誰的體溫 漸涼
+
+有沒有人 在某個地方 等我重回 當初的模樣
+雙頰曾光滑 夜色曾沁涼 世界曾瘋狂 愛情曾綻放
+
+有沒有人 依偎我身旁 聽我傾訴 餘生的漫長
+在你的眼中 我似乎健忘 因為我腦海 已有最難忘 最難遺忘
+
+在我的時代 還有唱片行 如同博物館 裝滿了希望
+披頭與槍花 愛情和憂傷 永遠驕傲 高唱
+
+成就如沙堡 生命如海浪 浪花會掏盡 所有的幻象
+存款與樓房 掙扎與渴望 散場
+
+回憶如窗 冷淚盈眶 風景模糊如天堂
+孤單的大床 誰貼近我 臉龐
+
+有沒有人 也笑憶過往 跌跌撞撞 當時的蠢樣
+最平凡日子 最卑微夢想 何時才發現 最值得珍藏
+
+有沒有人 告訴我真相 時間就是 最巨大的謊
+以為的日常 原來是無常 生命的具象 原來 只是 幻象
+
+這是我自傳 最終章 寫這首長詩 用一生時光
+軀殼會解脫 藥罐和空房 我從嬰兒床 再走回光芒
+
+有沒有人 知道某種秘方 不必永生 只要回憶不忘
+我不怕死亡 只害怕遺忘 回憶是你我 生存的地方
+
+有沒有人 知道那個地方 我能回到 我的最愛身旁
+兒孫們都忙 就讓他們忙 離開的時候 就當我飛翔
+自由飛翔</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ZL6-pu-cJd"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bWg-at-rxZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UPR-vU-PsH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4510" y="8741"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uce-Ip-we7">
+            <objects>
+                <viewController id="4lP-ZS-Bjk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yn1-KJ-kDm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GIX-Qv-wQi">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <mutableString key="text">如果我們不曾相遇 (What If We Had Never Met)
+作詞：阿信    作曲：阿信
+
+如果我們不曾相遇 我會是在哪裡？
+如果我們從不曾相識 不存在這首歌曲
+
+每秒都活著 每秒都死去 每秒都問著自己
+誰不曾找尋 誰不曾懷疑 茫茫人生奔向何地？
+
+那一天 那一刻 那個場景 你出現在我生命
+從此後 從人生 重新定義 從我故事裡甦醒
+
+如果我們不曾相遇 你又會在哪裡？
+如果我們從不曾相識 人間又如何運行？
+
+曬傷的脫皮 意外的雪景 與你相依的四季
+蒼狗又白雲 身旁有了你 匆匆輪迴又有何懼？
+
+那一天 那一刻 那個場景 你出現在我生命
+每一分 每一秒 每個表情 故事都充滿驚奇
+
+「 偶然與巧合 舞動了蝶翼 誰的心頭風起 」
+「 前仆而後繼 萬千人追尋 荒漠唯一菩提 」
+「 是擦身相遇 或擦肩而去 命運猶如險棋 」
+「 無數時間線 無盡可能性 終於交織向你 」
+
+那一天 那一刻 那個場景 你出現在我生命
+未知的 未來裡 未定機率 然而此刻擁有你
+
+某一天 某一刻 某次呼吸 我們終將再分離
+而我的 自傳裡 曾經有你 沒有遺憾的詩句
+詩句裡
+充滿感激
+
+如果我們不曾相遇 我會是在哪裡？
+如果我們從不曾相識 不存在這首歌曲</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="pwv-Se-hs9"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6xl-TH-Zrj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NSP-RO-zG3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4510.144927536232" y="402.45535714285711"/>
+        </scene>
+        <!--專輯介紹-->
+        <scene sceneID="cGa-pz-6Pb">
+            <objects>
+                <navigationController id="IkK-4n-b8Y" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="專輯介紹" id="ND0-Bc-Swd"/>
+                    <navigationItem key="navigationItem" id="X9e-63-WmB"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HaY-6K-T4f">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="TRy-2I-1RA" kind="relationship" relationship="rootViewController" id="aXc-EN-Enl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gam-7U-yCe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1873.913043478261" y="-151.33928571428569"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="R22-t9-Uix">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="rks-Yu-sSB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fXa-iT-McY">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="IkK-4n-b8Y" kind="relationship" relationship="viewControllers" id="kbh-dR-fz6"/>
+                        <segue destination="9pm-xt-H1a" kind="relationship" relationship="viewControllers" id="RrP-mx-iD8"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2yL-os-ngf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="963.76811594202911" y="176.78571428571428"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="500x500 (1)" width="500" height="500"/>
+        <image name="500x500 (2)" width="500" height="500"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="vuE-eD-IGe"/>
+    </inferredMetricsTieBreakers>
 </document>
