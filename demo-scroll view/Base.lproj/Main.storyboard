@@ -48,7 +48,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">專輯介紹
+                                <string key="text">專輯介紹
 五月天 自傳
 history of Tomorrow
 
@@ -298,7 +298,7 @@ more pain, more game.
 我的未來，不久相見
 
 
-～寫這首長詩 59’59” 用一生時光～ by五月天</mutableString>
+～寫這首長詩 59’59” 用一生時光～ by五月天</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -676,7 +676,7 @@ more pain, more game.
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">成名在望 (Almost Famous)
+                                <string key="text">成名在望 (Almost Famous)
 作詞：阿信    作曲：阿信
 
 找一個和弦開始唱 那故事遺忘的時光
@@ -721,7 +721,7 @@ We're stupid but strong 放學的屋頂 像萬人廣場
 那成名在望 無關真相 如果你 心始終信仰
 誰又能怎樣？ 誰又能怎樣？
 
-「你就能飛翔」</mutableString>
+「你就能飛翔」</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -748,7 +748,7 @@ We're stupid but strong 放學的屋頂 像萬人廣場
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">好好 (想把你寫成一首歌) (Song About You)
+                                <string key="text">好好 (想把你寫成一首歌) (Song About You)
 作詞：阿信    作曲：冠佑＋阿信
 
 想把你寫成一首歌 想養一隻貓
@@ -788,7 +788,7 @@ We're stupid but strong 放學的屋頂 像萬人廣場
 好到遺憾無法打擾
 好好的生活
 好好的變老
-好好假裝我 已經把你忘掉</mutableString>
+好好假裝我 已經把你忘掉</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -815,7 +815,7 @@ We're stupid but strong 放學的屋頂 像萬人廣場
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">兄弟 (Brotherhood)
+                                <string key="text">兄弟 (Brotherhood)
 作詞：阿信    作曲：阿信
 
 酒精或節奏 我們搖搖晃晃 那又會怎樣 跌倒你在身旁
@@ -863,7 +863,7 @@ We're stupid but strong 放學的屋頂 像萬人廣場
 一年一年 一年一年 地老天荒
 一定一定 一定一定 永遠不忘
 我的兄弟啊 人生最狂時光 剛好你都在場
-我的兄弟啊 人生最好時光 是和你 兄弟一場</mutableString>
+我的兄弟啊 人生最好時光 是和你 兄弟一場</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -890,7 +890,7 @@ We're stupid but strong 放學的屋頂 像萬人廣場
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">人生有限公司 (Life Co. Ltd.)
+                                <string key="text">人生有限公司 (Life Co. Ltd.)
 作詞：阿信    作曲：怪獸
 
 你用哭聲打卡 產房裡的娃娃 眾人祝福 你還記得嗎？
@@ -925,7 +925,7 @@ We're stupid but strong 放學的屋頂 像萬人廣場
 
 人生像打電話 總要有人先掛 來時嗚嗚哇哇 走要嘻嘻哈哈
 人生有限的話 你想要怎樣喧嘩？
-人生有限公司 沒有一天能請假</mutableString>
+人生有限公司 沒有一天能請假</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -952,7 +952,7 @@ We're stupid but strong 放學的屋頂 像萬人廣場
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">後來的我們 (Here, After, Us)
+                                <string key="text">後來的我們 (Here, After, Us)
 作詞：阿信    作曲：怪獸
 
 然後呢
@@ -1009,7 +1009,7 @@ We're stupid but strong 放學的屋頂 像萬人廣場
 無論是 後來故事 怎麼了
 也要讓 後來人生 值得
 後來的我們 我期待著
-淚水中能看到 你真的 自由了</mutableString>
+淚水中能看到 你真的 自由了</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1036,7 +1036,7 @@ We're stupid but strong 放學的屋頂 像萬人廣場
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">頑固 (Tough)
+                                <string key="text">頑固 (Tough)
 作詞：阿信    作曲：阿信
 
 我身在 當時你 幻想的 未來裡
@@ -1069,7 +1069,7 @@ We're stupid but strong 放學的屋頂 像萬人廣場
 一天一天你 是否還相信 活在你心深處 那頑固的
 
 你當時相信 的那些事情 會在如今 變成美麗風景
-每當我遲疑 從不曾忘記 活在我心深處 那頑固的自己</mutableString>
+每當我遲疑 從不曾忘記 活在我心深處 那頑固的自己</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1096,7 +1096,7 @@ We're stupid but strong 放學的屋頂 像萬人廣場
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">派對動物 (Party Animal)
+                                <string key="text">派對動物 (Party Animal)
 作詞：阿信    作曲：阿信
 
 Let’s go party party all night, oh oh oh oh
@@ -1143,7 +1143,7 @@ Hey lonely lonely goodbye, oh oh oh oh
 我們 天生 就是 派對動物
 
 派對動物
-派對動物</mutableString>
+派對動物</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1170,7 +1170,7 @@ Hey lonely lonely goodbye, oh oh oh oh
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">最好的一天 (Best Day of My Life)
+                                <string key="text">最好的一天 (Best Day of My Life)
 作詞：阿信    作曲：石頭
 
 閉上眼 請你閉上眼
@@ -1210,7 +1210,7 @@ In my life, best day, any day, best day
 噢噢噢噢噢 噢噢噢噢噢噢
 
 噢噢噢噢噢 噢噢噢噢噢噢
-噢噢噢噢噢 噢噢噢噢噢噢</mutableString>
+噢噢噢噢噢 噢噢噢噢噢噢</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1237,7 +1237,7 @@ In my life, best day, any day, best day
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">少年他的奇幻漂流 (Life of Planet)
+                                <string key="text">少年他的奇幻漂流 (Life of Planet)
 作詞：阿信    作曲：石頭
 
 午夜前醒來 迷惘如海 繁星忘了燦爛
@@ -1287,7 +1287,7 @@ In my life, best day, any day, best day
 朝霞中呢喃 釋然如海 你向我靠過來
 誰說要龐大 才能夠偉大 我們如此存在
 歷經摧殘 就要璀璨
-如果愛 不只是奇幻</mutableString>
+如果愛 不只是奇幻</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1314,7 +1314,7 @@ In my life, best day, any day, best day
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">終於結束的起點 (Beginning of the End)
+                                <string key="text">終於結束的起點 (Beginning of the End)
 作詞：阿信    作曲：阿信
 
 還記不記得 我和你 最初的相信
@@ -1368,7 +1368,7 @@ In my life, best day, any day, best day
 卻要在今天 頭也不回的告別昨天 奔向明天
 
 奔向明天
-不回頭 不眷戀 的明天</mutableString>
+不回頭 不眷戀 的明天</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1395,7 +1395,7 @@ In my life, best day, any day, best day
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">任意門 (Dokodemo Door)
+                                <string key="text">任意門 (Dokodemo Door)
 作詞：阿信    作曲：怪獸
 
 行天宮後 二樓前座 那個小房間 日夜排練 我們聽著唱片
@@ -1433,7 +1433,7 @@ In my life, best day, any day, best day
 
 行天宮後 二樓前座 那個小房間 獸媽準備 宵夜是大雞腿
 每個夢都 像任意門 往不同世界 而你的故事
-「現在正是起點」</mutableString>
+「現在正是起點」</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1460,7 +1460,7 @@ In my life, best day, any day, best day
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">轉眼 (Final Chapter)
+                                <string key="text">轉眼 (Final Chapter)
 作詞：阿信    作曲：石頭
 
 轉眼走到了 自傳最終章 已瀏覽所有 命運的風光
@@ -1501,7 +1501,7 @@ In my life, best day, any day, best day
 
 有沒有人 知道那個地方 我能回到 我的最愛身旁
 兒孫們都忙 就讓他們忙 離開的時候 就當我飛翔
-自由飛翔</mutableString>
+自由飛翔</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1528,7 +1528,7 @@ In my life, best day, any day, best day
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text">如果我們不曾相遇 (What If We Had Never Met)
+                                <string key="text">如果我們不曾相遇 (What If We Had Never Met)
 作詞：阿信    作曲：阿信
 
 如果我們不曾相遇 我會是在哪裡？
@@ -1563,7 +1563,7 @@ In my life, best day, any day, best day
 充滿感激
 
 如果我們不曾相遇 我會是在哪裡？
-如果我們從不曾相識 不存在這首歌曲</mutableString>
+如果我們從不曾相識 不存在這首歌曲</string>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1603,6 +1603,7 @@ In my life, best day, any day, best day
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="rks-Yu-sSB" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fXa-iT-McY">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
